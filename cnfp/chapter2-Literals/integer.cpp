@@ -9,7 +9,7 @@ int main()
     // octal-literal
     int o = 052;
 
-    // hex-literal
+    // hex-literal 0x 0X
     int x = 0x2a;
 
     // binary-literal c++14
@@ -20,4 +20,13 @@ int main()
     std::cout << std::oct << o << std::endl;
     std::cout << std::bitset<sizeof(b) * 8>{b} << std::endl;
 
+
+    // unsigned-literal "u U" 
+    // long long suffix 'll LL'
+
+    unsigned long long l1 = 18123123123123uLL;
+    unsigned long long l2 = 18'1231'2312'3123uLL;
+
+    std::cout << std::dec << l1 << std::endl;
+    std::cout << std::dec << l2 << std::endl;
 }
