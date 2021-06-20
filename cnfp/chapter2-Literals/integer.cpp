@@ -18,7 +18,7 @@ int main()
     std::cout << std::dec << d << std::endl;
     std::cout << std::hex << x << std::endl;
     std::cout << std::oct << o << std::endl;
-    std::cout << std::bitset<sizeof(b) * 8>{b} << std::endl;
+    std::cout << std::bitset<sizeof(b) * 8>(b) << std::endl;
 
 
     // unsigned-literal "u U" 
