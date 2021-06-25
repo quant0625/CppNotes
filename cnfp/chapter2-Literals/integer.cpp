@@ -1,5 +1,11 @@
 #include <bitset>
 #include <iostream>
+#include <vector>
+#include <string>
+#include <cstdio>
+#include <cmath>
+
+using namespace std;
 
 int main()
 {
@@ -30,3 +36,4 @@ int main()
     std::cout << std::dec << l1 << std::endl;
     std::cout << std::dec << l2 << std::endl;
 }
+
